@@ -71,7 +71,6 @@
             label1.Size = new Size(355, 54);
             label1.TabIndex = 4;
             label1.Text = "Add New Member";
-            label1.Click += this.label1_Click;
             // 
             // label3
             // 
@@ -106,7 +105,6 @@
             label5.Size = new Size(154, 28);
             label5.TabIndex = 10;
             label5.Text = "Phone Number";
-            label5.Click += this.label5_Click;
             // 
             // label6
             // 
@@ -129,7 +127,6 @@
             label7.Size = new Size(80, 28);
             label7.TabIndex = 14;
             label7.Text = "Gender";
-            label7.Click += this.label7_Click;
             // 
             // comboBox1
             // 
@@ -286,7 +283,7 @@
             ForeColor = SystemColors.ButtonHighlight;
             Name = "AddMember";
             Text = "Form2";
-            Load += this.AddMember_Load;
+            Load += AddMember_Load;
             ResumeLayout(false);
             PerformLayout();
         }

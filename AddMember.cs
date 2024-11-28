@@ -16,5 +16,10 @@ namespace GymDesktop
         {
             InitializeComponent();
         }
+
+        private void AddMember_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
