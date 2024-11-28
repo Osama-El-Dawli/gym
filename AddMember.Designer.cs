@@ -171,7 +171,7 @@
             // 
             // PhoneTb
             // 
-            PhoneTb.BackColor = Color.Black;
+            PhoneTb.BackColor = Color.DimGray;
             PhoneTb.BorderStyle = BorderStyle.None;
             PhoneTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             PhoneTb.ForeColor = Color.DarkOrange;
@@ -179,11 +179,10 @@
             PhoneTb.Name = "PhoneTb";
             PhoneTb.Size = new Size(224, 24);
             PhoneTb.TabIndex = 20;
-            PhoneTb.Text = "___________________________________";
             // 
             // NameTb
             // 
-            NameTb.BackColor = Color.Black;
+            NameTb.BackColor = Color.DimGray;
             NameTb.BorderStyle = BorderStyle.None;
             NameTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             NameTb.ForeColor = Color.DarkOrange;
@@ -191,11 +190,10 @@
             NameTb.Name = "NameTb";
             NameTb.Size = new Size(224, 24);
             NameTb.TabIndex = 23;
-            NameTb.Text = "___________________________________";
             // 
             // AgeTb
             // 
-            AgeTb.BackColor = Color.Black;
+            AgeTb.BackColor = Color.DimGray;
             AgeTb.BorderStyle = BorderStyle.None;
             AgeTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             AgeTb.ForeColor = Color.DarkOrange;
@@ -203,11 +201,10 @@
             AgeTb.Name = "AgeTb";
             AgeTb.Size = new Size(224, 24);
             AgeTb.TabIndex = 24;
-            AgeTb.Text = "___________________________________";
             // 
             // AmountTb
             // 
-            AmountTb.BackColor = Color.Black;
+            AmountTb.BackColor = Color.DimGray;
             AmountTb.BorderStyle = BorderStyle.None;
             AmountTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             AmountTb.ForeColor = Color.DarkOrange;
@@ -215,7 +212,6 @@
             AmountTb.Name = "AmountTb";
             AmountTb.Size = new Size(224, 24);
             AmountTb.TabIndex = 25;
-            AmountTb.Text = "___________________________________";
             // 
             // button1
             // 

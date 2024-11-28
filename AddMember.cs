@@ -34,7 +34,7 @@ namespace GymDesktop
             {
                 try
                 {
-                    using (SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\programming\C#\project\safe\gym\GymDb.mdf;Integrated Security=True;Connect Timeout=30"))
+                    using (SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\programming\C#\project\safe\gym\Database\GymDb.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=True"))
                     {
                         Con.Open();
                         string query = "INSERT INTO MemberTbl (MName, MPhone, MGen, MAge, MAmount, MTraining) " +
