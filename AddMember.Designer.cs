@@ -83,6 +83,7 @@
             label3.Size = new Size(46, 50);
             label3.TabIndex = 5;
             label3.Text = "X";
+            label3.Click += label3_Click;
             // 
             // label4
             // 
@@ -228,6 +229,7 @@
             button1.TabIndex = 26;
             button1.Text = "Back";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -241,6 +243,7 @@
             button2.TabIndex = 27;
             button2.Text = "Reset";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 

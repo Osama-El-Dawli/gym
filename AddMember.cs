@@ -18,7 +18,7 @@ namespace GymDesktop
             InitializeComponent();
         }
 
-        
+
         private void AddMember_Load(object sender, EventArgs e)
         {
 
@@ -51,6 +51,12 @@ namespace GymDesktop
 
                             cmd.ExecuteNonQuery();
                             MessageBox.Show("Member Successfully Added");
+                            AmountTb.Text = "";
+                            AgeTb.Text = "";
+                            NameTb.Text = "";
+                            PhoneTb.Text = "";
+                            GenderCb.Text = "";
+                            TimingCb.Text = "";
                         }
                     }
                 }
@@ -60,4 +66,27 @@ namespace GymDesktop
                 }
             }
         }
-    } }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AmountTb.Text = "";
+            AgeTb.Text = "";
+            NameTb.Text = "";
+            PhoneTb.Text = "";
+            GenderCb.Text = "";
+            TimingCb.Text = "";
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Login log = new Login();
+            log.Show();
+            this.Hide();
+        }
+    }
+}
