@@ -281,7 +281,9 @@
             Controls.Add(label2);
             Cursor = Cursors.AppStarting;
             ForeColor = SystemColors.ButtonHighlight;
+            FormBorderStyle = FormBorderStyle.None;
             Name = "AddMember";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
             Load += AddMember_Load;
             ResumeLayout(false);
