@@ -35,14 +35,14 @@
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
-            comboBox1 = new ComboBox();
+            GenderCb = new ComboBox();
             label8 = new Label();
-            comboBox2 = new ComboBox();
+            TimingCb = new ComboBox();
             label9 = new Label();
-            maskedTextBox5 = new MaskedTextBox();
-            maskedTextBox4 = new MaskedTextBox();
-            maskedTextBox1 = new MaskedTextBox();
-            maskedTextBox2 = new MaskedTextBox();
+            PhoneTb = new MaskedTextBox();
+            NameTb = new MaskedTextBox();
+            AgeTb = new MaskedTextBox();
+            AmountTb = new MaskedTextBox();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -128,14 +128,14 @@
             label7.TabIndex = 14;
             label7.Text = "Gender";
             // 
-            // comboBox1
+            // GenderCb
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Male", "Female" });
-            comboBox1.Location = new Point(114, 412);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(224, 28);
-            comboBox1.TabIndex = 15;
+            GenderCb.FormattingEnabled = true;
+            GenderCb.Items.AddRange(new object[] { "Male", "Female" });
+            GenderCb.Location = new Point(114, 412);
+            GenderCb.Name = "GenderCb";
+            GenderCb.Size = new Size(224, 28);
+            GenderCb.TabIndex = 15;
             // 
             // label8
             // 
@@ -148,14 +148,14 @@
             label8.TabIndex = 17;
             label8.Text = "Monthly Amount";
             // 
-            // comboBox2
+            // TimingCb
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "6Am-8Am", "8Am-10Am", "6Pm-8Pm", "8Pm-10PM" });
-            comboBox2.Location = new Point(960, 413);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(224, 28);
-            comboBox2.TabIndex = 19;
+            TimingCb.FormattingEnabled = true;
+            TimingCb.Items.AddRange(new object[] { "6Am-8Am", "8Am-10Am", "6Pm-8Pm", "8Pm-10PM" });
+            TimingCb.Location = new Point(960, 413);
+            TimingCb.Name = "TimingCb";
+            TimingCb.Size = new Size(224, 28);
+            TimingCb.TabIndex = 19;
             // 
             // label9
             // 
@@ -168,53 +168,53 @@
             label9.TabIndex = 18;
             label9.Text = "Timing";
             // 
-            // maskedTextBox5
+            // PhoneTb
             // 
-            maskedTextBox5.BackColor = Color.Black;
-            maskedTextBox5.BorderStyle = BorderStyle.None;
-            maskedTextBox5.Font = new Font("Engravers MT", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            maskedTextBox5.ForeColor = Color.DarkOrange;
-            maskedTextBox5.Location = new Point(533, 252);
-            maskedTextBox5.Name = "maskedTextBox5";
-            maskedTextBox5.Size = new Size(224, 24);
-            maskedTextBox5.TabIndex = 20;
-            maskedTextBox5.Text = "___________________________________";
+            PhoneTb.BackColor = Color.Black;
+            PhoneTb.BorderStyle = BorderStyle.None;
+            PhoneTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            PhoneTb.ForeColor = Color.DarkOrange;
+            PhoneTb.Location = new Point(533, 252);
+            PhoneTb.Name = "PhoneTb";
+            PhoneTb.Size = new Size(224, 24);
+            PhoneTb.TabIndex = 20;
+            PhoneTb.Text = "___________________________________";
             // 
-            // maskedTextBox4
+            // NameTb
             // 
-            maskedTextBox4.BackColor = Color.Black;
-            maskedTextBox4.BorderStyle = BorderStyle.None;
-            maskedTextBox4.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            maskedTextBox4.ForeColor = Color.DarkOrange;
-            maskedTextBox4.Location = new Point(114, 252);
-            maskedTextBox4.Name = "maskedTextBox4";
-            maskedTextBox4.Size = new Size(224, 24);
-            maskedTextBox4.TabIndex = 23;
-            maskedTextBox4.Text = "___________________________________";
+            NameTb.BackColor = Color.Black;
+            NameTb.BorderStyle = BorderStyle.None;
+            NameTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            NameTb.ForeColor = Color.DarkOrange;
+            NameTb.Location = new Point(114, 252);
+            NameTb.Name = "NameTb";
+            NameTb.Size = new Size(224, 24);
+            NameTb.TabIndex = 23;
+            NameTb.Text = "___________________________________";
             // 
-            // maskedTextBox1
+            // AgeTb
             // 
-            maskedTextBox1.BackColor = Color.Black;
-            maskedTextBox1.BorderStyle = BorderStyle.None;
-            maskedTextBox1.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            maskedTextBox1.ForeColor = Color.DarkOrange;
-            maskedTextBox1.Location = new Point(960, 252);
-            maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(224, 24);
-            maskedTextBox1.TabIndex = 24;
-            maskedTextBox1.Text = "___________________________________";
+            AgeTb.BackColor = Color.Black;
+            AgeTb.BorderStyle = BorderStyle.None;
+            AgeTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            AgeTb.ForeColor = Color.DarkOrange;
+            AgeTb.Location = new Point(960, 252);
+            AgeTb.Name = "AgeTb";
+            AgeTb.Size = new Size(224, 24);
+            AgeTb.TabIndex = 24;
+            AgeTb.Text = "___________________________________";
             // 
-            // maskedTextBox2
+            // AmountTb
             // 
-            maskedTextBox2.BackColor = Color.Black;
-            maskedTextBox2.BorderStyle = BorderStyle.None;
-            maskedTextBox2.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            maskedTextBox2.ForeColor = Color.DarkOrange;
-            maskedTextBox2.Location = new Point(533, 416);
-            maskedTextBox2.Name = "maskedTextBox2";
-            maskedTextBox2.Size = new Size(224, 24);
-            maskedTextBox2.TabIndex = 25;
-            maskedTextBox2.Text = "___________________________________";
+            AmountTb.BackColor = Color.Black;
+            AmountTb.BorderStyle = BorderStyle.None;
+            AmountTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            AmountTb.ForeColor = Color.DarkOrange;
+            AmountTb.Location = new Point(533, 416);
+            AmountTb.Name = "AmountTb";
+            AmountTb.Size = new Size(224, 24);
+            AmountTb.TabIndex = 25;
+            AmountTb.Text = "___________________________________";
             // 
             // button1
             // 
@@ -254,6 +254,7 @@
             button3.TabIndex = 28;
             button3.Text = "Add";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // AddMember
             // 
@@ -264,14 +265,14 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(maskedTextBox2);
-            Controls.Add(maskedTextBox1);
-            Controls.Add(maskedTextBox4);
-            Controls.Add(maskedTextBox5);
-            Controls.Add(comboBox2);
+            Controls.Add(AmountTb);
+            Controls.Add(AgeTb);
+            Controls.Add(NameTb);
+            Controls.Add(PhoneTb);
+            Controls.Add(TimingCb);
             Controls.Add(label9);
             Controls.Add(label8);
-            Controls.Add(comboBox1);
+            Controls.Add(GenderCb);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -299,14 +300,14 @@
         private Label label5;
         private Label label6;
         private Label label7;
-        private ComboBox comboBox1;
+        private ComboBox GenderCb;
         private Label label8;
-        private ComboBox comboBox2;
+        private ComboBox TimingCb;
         private Label label9;
-        private MaskedTextBox maskedTextBox5;
-        private MaskedTextBox maskedTextBox4;
-        private MaskedTextBox maskedTextBox1;
-        private MaskedTextBox maskedTextBox2;
+        private MaskedTextBox PhoneTb;
+        private MaskedTextBox NameTb;
+        private MaskedTextBox AgeTb;
+        private MaskedTextBox AmountTb;
         private Button button1;
         private Button button2;
         private Button button3;
