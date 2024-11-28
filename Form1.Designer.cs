@@ -30,9 +30,9 @@
         {
             pictureBox1 = new PictureBox();
             label2 = new Label();
-            textBox1 = new TextBox();
+            UidTb = new TextBox();
             pictureBox2 = new PictureBox();
-            textBox2 = new TextBox();
+            PassTb = new TextBox();
             button1 = new Button();
             button2 = new Button();
             pictureBox3 = new PictureBox();
@@ -64,13 +64,14 @@
             label2.Text = "BIG GYM";
             label2.Click += label2_Click;
             // 
-            // textBox1
+            // UidTb
             // 
-            textBox1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(1114, 411);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(339, 47);
-            textBox1.TabIndex = 3;
+            UidTb.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            UidTb.Location = new Point(1114, 411);
+            UidTb.Name = "UidTb";
+            UidTb.Size = new Size(339, 47);
+            UidTb.TabIndex = 3;
+            UidTb.TextChanged += textBox1_TextChanged_1;
             // 
             // pictureBox2
             // 
@@ -82,13 +83,14 @@
             pictureBox2.TabIndex = 4;
             pictureBox2.TabStop = false;
             // 
-            // textBox2
+            // PassTb
             // 
-            textBox2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(1114, 495);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(339, 47);
-            textBox2.TabIndex = 5;
+            PassTb.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            PassTb.Location = new Point(1114, 495);
+            PassTb.Name = "PassTb";
+            PassTb.PasswordChar = '*';
+            PassTb.Size = new Size(339, 47);
+            PassTb.TabIndex = 5;
             // 
             // button1
             // 
@@ -137,13 +139,14 @@
             Controls.Add(pictureBox3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(textBox2);
+            Controls.Add(PassTb);
             Controls.Add(pictureBox2);
-            Controls.Add(textBox1);
+            Controls.Add(UidTb);
             Controls.Add(label2);
             Controls.Add(pictureBox1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -155,9 +158,9 @@
 
         private PictureBox pictureBox1;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox UidTb;
         private PictureBox pictureBox2;
-        private TextBox textBox2;
+        private TextBox PassTb;
         private Button button1;
         private Button button2;
         private PictureBox pictureBox3;
