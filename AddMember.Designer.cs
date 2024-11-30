@@ -48,7 +48,7 @@
             label2 = new Label();
             SuspendLayout();
             // 
-<<<<<<< HEAD
+
             // label2
             // 
             label2.AutoSize = true;
@@ -325,26 +325,25 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
-=======
->>>>>>> osama
+
             // button3
             // 
             button3.BackColor = Color.Peru;
             button3.FlatStyle = FlatStyle.Popup;
             button3.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button3.ForeColor = SystemColors.ButtonHighlight;
-<<<<<<< HEAD
+
             button3.Location = new Point(968, 1308);
             button3.Margin = new Padding(6);
             button3.Name = "button3";
             button3.Size = new Size(329, 109);
             button3.TabIndex = 28;
-=======
+
             button3.Location = new Point(251, 535);
             button3.Name = "button3";
             button3.Size = new Size(155, 53);
             button3.TabIndex = 46;
->>>>>>> osama
+
             button3.Text = "Add";
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click_1;
@@ -547,11 +546,10 @@
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
-<<<<<<< HEAD
             ClientSize = new Size(3288, 1861);
-=======
+
             ClientSize = new Size(1237, 669);
->>>>>>> osama
+
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
