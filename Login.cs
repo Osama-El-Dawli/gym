@@ -15,10 +15,12 @@ namespace GymDesktop
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if(UidTb.Text=="" || PassTb.Text == "")
+            if (UidTb.Text == "" || PassTb.Text == "")
             {
                 MessageBox.Show("Missing Information");
-            }else if(UidTb.Text=="Admin" && PassTb.Text=="Admin") {
+            }
+            else if (UidTb.Text == "Admin" && PassTb.Text == "Admin")
+            {
 
             }
             else
@@ -48,6 +50,11 @@ namespace GymDesktop
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
