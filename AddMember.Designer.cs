@@ -138,22 +138,22 @@
             // 
             // GenderCb
             // 
-<<<<<<< HEAD
+
             GenderCb.FormattingEnabled = true;
             GenderCb.Items.AddRange(new object[] { "Male", "Female" });
             GenderCb.Location = new Point(114, 412);
             GenderCb.Name = "GenderCb";
             GenderCb.Size = new Size(224, 28);
             GenderCb.TabIndex = 15;
-=======
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Male", "Female" });
-            comboBox1.Location = new Point(492, 1034);
-            comboBox1.Margin = new Padding(6);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(472, 49);
-            comboBox1.TabIndex = 15;
->>>>>>> sara
+
+            //comboBox1.FormattingEnabled = true;
+            //comboBox1.Items.AddRange(new object[] { "Male", "Female" });
+            //comboBox1.Location = new Point(492, 1034);
+            //comboBox1.Margin = new Padding(6);
+            //comboBox1.Name = "comboBox1";
+            //comboBox1.Size = new Size(472, 49);
+            //comboBox1.TabIndex = 15;
+
             // 
             // label8
             // 
@@ -169,22 +169,22 @@
             // 
             // TimingCb
             // 
-<<<<<<< HEAD
+
             TimingCb.FormattingEnabled = true;
             TimingCb.Items.AddRange(new object[] { "6Am-8Am", "8Am-10Am", "6Pm-8Pm", "8Pm-10PM" });
             TimingCb.Location = new Point(960, 413);
             TimingCb.Name = "TimingCb";
             TimingCb.Size = new Size(224, 28);
             TimingCb.TabIndex = 19;
-=======
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "6Am-8Am", "8Am-10Am", "6Pm-8Pm", "8Pm-10PM" });
-            comboBox2.Location = new Point(2290, 1036);
-            comboBox2.Margin = new Padding(6);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(472, 49);
-            comboBox2.TabIndex = 19;
->>>>>>> sara
+
+            //comboBox2.FormattingEnabled = true;
+            //comboBox2.Items.AddRange(new object[] { "6Am-8Am", "8Am-10Am", "6Pm-8Pm", "8Pm-10PM" });
+            //comboBox2.Location = new Point(2290, 1036);
+            //comboBox2.Margin = new Padding(6);
+            //comboBox2.Name = "comboBox2";
+            //comboBox2.Size = new Size(472, 49);
+            //comboBox2.TabIndex = 19;
+
             // 
             // label9
             // 
@@ -200,7 +200,7 @@
             // 
             // PhoneTb
             // 
-<<<<<<< HEAD
+
             PhoneTb.BackColor = Color.DimGray;
             PhoneTb.BorderStyle = BorderStyle.None;
             PhoneTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
@@ -209,22 +209,22 @@
             PhoneTb.Name = "PhoneTb";
             PhoneTb.Size = new Size(224, 24);
             PhoneTb.TabIndex = 20;
-=======
-            maskedTextBox5.BackColor = Color.Black;
-            maskedTextBox5.BorderStyle = BorderStyle.None;
-            maskedTextBox5.Font = new Font("Engravers MT", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            maskedTextBox5.ForeColor = Color.DarkOrange;
-            maskedTextBox5.Location = new Point(1383, 706);
-            maskedTextBox5.Margin = new Padding(6);
-            maskedTextBox5.Name = "maskedTextBox5";
-            maskedTextBox5.Size = new Size(476, 47);
-            maskedTextBox5.TabIndex = 20;
-            maskedTextBox5.Text = "___________________________________";
->>>>>>> sara
+//=======
+            //maskedTextBox5.BackColor = Color.Black;
+            //maskedTextBox5.BorderStyle = BorderStyle.None;
+            //maskedTextBox5.Font = new Font("Engravers MT", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            //maskedTextBox5.ForeColor = Color.DarkOrange;
+            //maskedTextBox5.Location = new Point(1383, 706);
+            //maskedTextBox5.Margin = new Padding(6);
+            //maskedTextBox5.Name = "maskedTextBox5";
+            //maskedTextBox5.Size = new Size(476, 47);
+            //maskedTextBox5.TabIndex = 20;
+            //maskedTextBox5.Text = "___________________________________";
+//>>>>>>> sara
             // 
             // NameTb
             // 
-<<<<<<< HEAD
+//<<<<<<< HEAD
             NameTb.BackColor = Color.DimGray;
             NameTb.BorderStyle = BorderStyle.None;
             NameTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -233,22 +233,22 @@
             NameTb.Name = "NameTb";
             NameTb.Size = new Size(224, 24);
             NameTb.TabIndex = 23;
-=======
-            maskedTextBox4.BackColor = Color.Black;
-            maskedTextBox4.BorderStyle = BorderStyle.None;
-            maskedTextBox4.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            maskedTextBox4.ForeColor = Color.DarkOrange;
-            maskedTextBox4.Location = new Point(492, 706);
-            maskedTextBox4.Margin = new Padding(6);
-            maskedTextBox4.Name = "maskedTextBox4";
-            maskedTextBox4.Size = new Size(476, 47);
-            maskedTextBox4.TabIndex = 23;
-            maskedTextBox4.Text = "___________________________________";
->>>>>>> sara
+//=======
+            //maskedTextBox4.BackColor = Color.Black;
+            //maskedTextBox4.BorderStyle = BorderStyle.None;
+            //maskedTextBox4.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            //maskedTextBox4.ForeColor = Color.DarkOrange;
+            //maskedTextBox4.Location = new Point(492, 706);
+            //maskedTextBox4.Margin = new Padding(6);
+            //maskedTextBox4.Name = "maskedTextBox4";
+            //maskedTextBox4.Size = new Size(476, 47);
+            //maskedTextBox4.TabIndex = 23;
+            //maskedTextBox4.Text = "___________________________________";
+//>>>>>>> sara
             // 
             // AgeTb
             // 
-<<<<<<< HEAD
+//<<<<<<< HEAD
             AgeTb.BackColor = Color.DimGray;
             AgeTb.BorderStyle = BorderStyle.None;
             AgeTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -257,22 +257,22 @@
             AgeTb.Name = "AgeTb";
             AgeTb.Size = new Size(224, 24);
             AgeTb.TabIndex = 24;
-=======
-            maskedTextBox1.BackColor = Color.Black;
-            maskedTextBox1.BorderStyle = BorderStyle.None;
-            maskedTextBox1.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            maskedTextBox1.ForeColor = Color.DarkOrange;
-            maskedTextBox1.Location = new Point(2290, 706);
-            maskedTextBox1.Margin = new Padding(6);
-            maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(476, 47);
-            maskedTextBox1.TabIndex = 24;
-            maskedTextBox1.Text = "___________________________________";
->>>>>>> sara
+//=======
+            //maskedTextBox1.BackColor = Color.Black;
+            //maskedTextBox1.BorderStyle = BorderStyle.None;
+            //maskedTextBox1.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            //maskedTextBox1.ForeColor = Color.DarkOrange;
+            //maskedTextBox1.Location = new Point(2290, 706);
+            //maskedTextBox1.Margin = new Padding(6);
+            //maskedTextBox1.Name = "maskedTextBox1";
+            //maskedTextBox1.Size = new Size(476, 47);
+            //maskedTextBox1.TabIndex = 24;
+            //maskedTextBox1.Text = "___________________________________";
+//>>>>>>> sara
             // 
             // AmountTb
             // 
-<<<<<<< HEAD
+//<<<<<<< HEAD
             AmountTb.BackColor = Color.DimGray;
             AmountTb.BorderStyle = BorderStyle.None;
             AmountTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -281,18 +281,18 @@
             AmountTb.Name = "AmountTb";
             AmountTb.Size = new Size(224, 24);
             AmountTb.TabIndex = 25;
-=======
-            maskedTextBox2.BackColor = Color.Black;
-            maskedTextBox2.BorderStyle = BorderStyle.None;
-            maskedTextBox2.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            maskedTextBox2.ForeColor = Color.DarkOrange;
-            maskedTextBox2.Location = new Point(1383, 1042);
-            maskedTextBox2.Margin = new Padding(6);
-            maskedTextBox2.Name = "maskedTextBox2";
-            maskedTextBox2.Size = new Size(476, 47);
-            maskedTextBox2.TabIndex = 25;
-            maskedTextBox2.Text = "___________________________________";
->>>>>>> sara
+//=======
+            //maskedTextBox2.BackColor = Color.Black;
+            //maskedTextBox2.BorderStyle = BorderStyle.None;
+            //maskedTextBox2.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            //maskedTextBox2.ForeColor = Color.DarkOrange;
+            //maskedTextBox2.Location = new Point(1383, 1042);
+            //maskedTextBox2.Margin = new Padding(6);
+            //maskedTextBox2.Name = "maskedTextBox2";
+            //maskedTextBox2.Size = new Size(476, 47);
+            //maskedTextBox2.TabIndex = 25;
+            //maskedTextBox2.Text = "___________________________________";
+//>>>>>>> sara
             // 
             // button1
             // 
@@ -365,11 +365,11 @@
             Controls.Add(label2);
             Cursor = Cursors.AppStarting;
             ForeColor = SystemColors.ButtonHighlight;
-<<<<<<< HEAD
+//<<<<<<< HEAD
             FormBorderStyle = FormBorderStyle.None;
-=======
+//=======
             Margin = new Padding(6);
->>>>>>> sara
+//>>>>>>> sara
             Name = "AddMember";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
