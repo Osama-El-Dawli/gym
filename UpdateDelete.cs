@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace GymDesktop
@@ -17,32 +12,66 @@ namespace GymDesktop
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
+        private readonly string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\programming\C#\project\safe\gym\Database\GymDb.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True";
 
+        // Populate the DataGridView with members
+        private void populate()
+        {
+            try
+            {
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    con.Open();
+                    string query = "SELECT * FROM MemberTbl";
+                    SqlDataAdapter sda = new SqlDataAdapter(query, con);
+                    var ds = new DataSet();
+                    sda.Fill(ds);
+                    MemberSDGV.DataSource = ds.Tables[0];
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void UpdateDelete_Load(object sender, EventArgs e)
         {
-
+            populate();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
 
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Clear all fields
+            NameTb.Text = "";
+            AgeTb.Text = "";
+            AmountTb.Text = "";
+            GenderCb.Text = "";
+            PhoneTb.Text = "";
+            TimingCb.Text = "";
         }
 
-        private void label10_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            Login log = new Login();
+            log.Show();
+            this.Hide();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-
+            
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void MemberSDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
