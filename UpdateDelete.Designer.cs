@@ -93,7 +93,7 @@
             // 
             // maskedTextBox2
             // 
-            maskedTextBox2.BackColor = Color.Black;
+            maskedTextBox2.BackColor = Color.DimGray;
             maskedTextBox2.BorderStyle = BorderStyle.None;
             maskedTextBox2.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             maskedTextBox2.ForeColor = Color.DarkOrange;
@@ -101,11 +101,10 @@
             maskedTextBox2.Name = "maskedTextBox2";
             maskedTextBox2.Size = new Size(224, 24);
             maskedTextBox2.TabIndex = 43;
-            maskedTextBox2.Text = "___________________________________";
             // 
             // maskedTextBox1
             // 
-            maskedTextBox1.BackColor = Color.Black;
+            maskedTextBox1.BackColor = Color.DimGray;
             maskedTextBox1.BorderStyle = BorderStyle.None;
             maskedTextBox1.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             maskedTextBox1.ForeColor = Color.DarkOrange;
@@ -113,11 +112,10 @@
             maskedTextBox1.Name = "maskedTextBox1";
             maskedTextBox1.Size = new Size(224, 24);
             maskedTextBox1.TabIndex = 42;
-            maskedTextBox1.Text = "___________________________________";
             // 
             // maskedTextBox4
             // 
-            maskedTextBox4.BackColor = Color.Black;
+            maskedTextBox4.BackColor = Color.DimGray;
             maskedTextBox4.BorderStyle = BorderStyle.None;
             maskedTextBox4.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             maskedTextBox4.ForeColor = Color.DarkOrange;
@@ -125,11 +123,11 @@
             maskedTextBox4.Name = "maskedTextBox4";
             maskedTextBox4.Size = new Size(224, 24);
             maskedTextBox4.TabIndex = 41;
-            maskedTextBox4.Text = "___________________________________";
+            maskedTextBox4.Tag = "";
             // 
             // maskedTextBox5
             // 
-            maskedTextBox5.BackColor = Color.Black;
+            maskedTextBox5.BackColor = Color.DimGray;
             maskedTextBox5.BorderStyle = BorderStyle.None;
             maskedTextBox5.Font = new Font("Engravers MT", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             maskedTextBox5.ForeColor = Color.DarkOrange;
@@ -137,7 +135,6 @@
             maskedTextBox5.Name = "maskedTextBox5";
             maskedTextBox5.Size = new Size(224, 24);
             maskedTextBox5.TabIndex = 40;
-            maskedTextBox5.Text = "___________________________________";
             // 
             // comboBox2
             // 
@@ -178,6 +175,7 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(224, 28);
             comboBox1.TabIndex = 36;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // label7
             // 
