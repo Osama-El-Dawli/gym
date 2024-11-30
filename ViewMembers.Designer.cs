@@ -78,7 +78,9 @@
             // 
             // MemberSDGV
             // 
+            MemberSDGV.BackgroundColor = SystemColors.HighlightText;
             MemberSDGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            MemberSDGV.GridColor = SystemColors.ControlLight;
             MemberSDGV.Location = new Point(41, 223);
             MemberSDGV.Name = "MemberSDGV";
             MemberSDGV.RowHeadersWidth = 51;
