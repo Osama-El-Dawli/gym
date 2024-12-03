@@ -45,7 +45,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 22.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Peru;
-            label3.Location = new Point(980, 9);
+            label3.Location = new Point(1295, 26);
             label3.Name = "label3";
             label3.Size = new Size(46, 50);
             label3.TabIndex = 8;
@@ -58,7 +58,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Peru;
-            label1.Location = new Point(359, 56);
+            label1.Location = new Point(567, 58);
             label1.Name = "label1";
             label1.Size = new Size(297, 54);
             label1.TabIndex = 7;
@@ -70,7 +70,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.Peru;
-            label2.Location = new Point(410, 12);
+            label2.Location = new Point(618, 14);
             label2.Name = "label2";
             label2.Size = new Size(191, 54);
             label2.TabIndex = 6;
@@ -81,22 +81,25 @@
             MemberSDGV.BackgroundColor = SystemColors.HighlightText;
             MemberSDGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             MemberSDGV.GridColor = SystemColors.ControlLight;
-            MemberSDGV.Location = new Point(41, 223);
+            MemberSDGV.Location = new Point(249, 225);
             MemberSDGV.Name = "MemberSDGV";
             MemberSDGV.RowHeadersWidth = 51;
             MemberSDGV.Size = new Size(929, 499);
             MemberSDGV.TabIndex = 48;
+            MemberSDGV.CellContentClick += MemberSDGV_CellContentClick;
             // 
             // textBox1
             // 
             textBox1.BackColor = Color.DimGray;
             textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox1.ForeColor = Color.DarkOrange;
-            textBox1.Location = new Point(258, 129);
+            textBox1.Location = new Point(466, 131);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(300, 53);
             textBox1.TabIndex = 51;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // button2
             // 
@@ -104,12 +107,13 @@
             button2.FlatStyle = FlatStyle.Popup;
             button2.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.ForeColor = SystemColors.ButtonHighlight;
-            button2.Location = new Point(564, 129);
+            button2.Location = new Point(772, 131);
             button2.Name = "button2";
             button2.Size = new Size(116, 53);
             button2.TabIndex = 52;
             button2.Text = "Search";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -117,7 +121,7 @@
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ButtonHighlight;
-            button1.Location = new Point(686, 129);
+            button1.Location = new Point(894, 131);
             button1.Name = "button1";
             button1.Size = new Size(116, 53);
             button1.TabIndex = 53;
@@ -130,7 +134,7 @@
             button3.FlatStyle = FlatStyle.Popup;
             button3.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button3.ForeColor = SystemColors.ButtonHighlight;
-            button3.Location = new Point(410, 755);
+            button3.Location = new Point(618, 757);
             button3.Name = "button3";
             button3.Size = new Size(226, 53);
             button3.TabIndex = 54;
@@ -143,7 +147,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            ClientSize = new Size(1038, 820);
+            ClientSize = new Size(1425, 820);
             Controls.Add(button3);
             Controls.Add(button1);
             Controls.Add(button2);
