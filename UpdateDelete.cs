@@ -12,7 +12,7 @@ namespace GymDesktop
             InitializeComponent();
         }
 
-        private readonly string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\programming\C#\project\safe\gym\Database\GymDb.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True";
+        private readonly string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Desktop\source\gym\gym\Database\GymDb.mdf;Integrated Security=True;Connect Timeout=30";
 
         // Populate the DataGridView with members
         private void populate()
@@ -62,7 +62,7 @@ namespace GymDesktop
 
         private void button4_Click(object sender, EventArgs e)
         {
-            
+
         }
 
 
@@ -73,7 +73,24 @@ namespace GymDesktop
 
         private void MemberSDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex >= 0 && e.RowIndex < MemberSDGV.Rows.Count)
+            {
+                // Get the selected row
+                DataGridViewRow selectedRow = MemberSDGV.Rows[e.RowIndex];
 
+                // Populate the fields using column names
+                NameTb.Text = selectedRow.Cells[1].Value?.ToString() ?? "";
+                PhoneTb.Text = selectedRow.Cells[2].Value?.ToString() ?? "";
+                GenderCb.Text = selectedRow.Cells[3].Value?.ToString() ?? "";
+                AgeTb.Text = selectedRow.Cells[4].Value?.ToString() ?? "";
+                AmountTb.Text = selectedRow.Cells[5].Value?.ToString() ?? "";
+                TimingCb.Text = selectedRow.Cells[6].Value?.ToString() ?? "";
+            }
+            else
+            {
+                // If no valid row is selected, show a message
+                MessageBox.Show("Please select a valid row.", "No Row Selected", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
-}
+    }
