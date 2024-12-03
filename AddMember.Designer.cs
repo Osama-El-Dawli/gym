@@ -54,7 +54,7 @@
             button3.FlatStyle = FlatStyle.Popup;
             button3.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button3.ForeColor = SystemColors.ButtonHighlight;
-            button3.Location = new Point(258, 532);
+            button3.Location = new Point(504, 553);
             button3.Name = "button3";
             button3.Size = new Size(155, 53);
             button3.TabIndex = 64;
@@ -68,7 +68,7 @@
             button2.FlatStyle = FlatStyle.Popup;
             button2.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.ForeColor = SystemColors.ButtonHighlight;
-            button2.Location = new Point(510, 532);
+            button2.Location = new Point(756, 553);
             button2.Name = "button2";
             button2.Size = new Size(155, 53);
             button2.TabIndex = 63;
@@ -82,7 +82,7 @@
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ButtonHighlight;
-            button1.Location = new Point(759, 532);
+            button1.Location = new Point(1005, 553);
             button1.Name = "button1";
             button1.Size = new Size(155, 53);
             button1.TabIndex = 62;
@@ -95,7 +95,7 @@
             AmountTb.BorderStyle = BorderStyle.None;
             AmountTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             AmountTb.ForeColor = Color.DarkOrange;
-            AmountTb.Location = new Point(499, 397);
+            AmountTb.Location = new Point(745, 418);
             AmountTb.Name = "AmountTb";
             AmountTb.Size = new Size(224, 24);
             AmountTb.TabIndex = 61;
@@ -106,7 +106,7 @@
             AgeTb.BorderStyle = BorderStyle.None;
             AgeTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             AgeTb.ForeColor = Color.DarkOrange;
-            AgeTb.Location = new Point(926, 233);
+            AgeTb.Location = new Point(1172, 254);
             AgeTb.Name = "AgeTb";
             AgeTb.Size = new Size(224, 24);
             AgeTb.TabIndex = 60;
@@ -117,11 +117,10 @@
             NameTb.BorderStyle = BorderStyle.None;
             NameTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             NameTb.ForeColor = Color.DarkOrange;
-            NameTb.Location = new Point(80, 233);
+            NameTb.Location = new Point(326, 254);
             NameTb.Name = "NameTb";
             NameTb.Size = new Size(224, 24);
             NameTb.TabIndex = 59;
-            //NameTb.MaskInputRejected += NameTb_MaskInputRejected;
             // 
             // PhoneTb
             // 
@@ -129,7 +128,7 @@
             PhoneTb.BorderStyle = BorderStyle.None;
             PhoneTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             PhoneTb.ForeColor = Color.DarkOrange;
-            PhoneTb.Location = new Point(499, 233);
+            PhoneTb.Location = new Point(745, 254);
             PhoneTb.Name = "PhoneTb";
             PhoneTb.Size = new Size(224, 24);
             PhoneTb.TabIndex = 58;
@@ -138,7 +137,7 @@
             // 
             TimingCb.FormattingEnabled = true;
             TimingCb.Items.AddRange(new object[] { "6Am-8Am", "8Am-10Am", "6Pm-8Pm", "8Pm-10PM" });
-            TimingCb.Location = new Point(926, 394);
+            TimingCb.Location = new Point(1172, 415);
             TimingCb.Name = "TimingCb";
             TimingCb.Size = new Size(224, 28);
             TimingCb.TabIndex = 57;
@@ -148,7 +147,7 @@
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label9.ForeColor = Color.DarkOrange;
-            label9.Location = new Point(998, 354);
+            label9.Location = new Point(1244, 375);
             label9.Name = "label9";
             label9.Size = new Size(78, 28);
             label9.TabIndex = 56;
@@ -159,7 +158,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label8.ForeColor = Color.DarkOrange;
-            label8.Location = new Point(521, 353);
+            label8.Location = new Point(767, 374);
             label8.Name = "label8";
             label8.Size = new Size(174, 28);
             label8.TabIndex = 55;
@@ -169,18 +168,17 @@
             // 
             GenderCb.FormattingEnabled = true;
             GenderCb.Items.AddRange(new object[] { "Male", "Female" });
-            GenderCb.Location = new Point(80, 393);
+            GenderCb.Location = new Point(326, 414);
             GenderCb.Name = "GenderCb";
             GenderCb.Size = new Size(224, 28);
             GenderCb.TabIndex = 54;
-            //GenderCb.SelectedIndexChanged += GenderCb_SelectedIndexChanged;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.DarkOrange;
-            label7.Location = new Point(152, 353);
+            label7.Location = new Point(398, 374);
             label7.Name = "label7";
             label7.Size = new Size(80, 28);
             label7.TabIndex = 53;
@@ -191,7 +189,7 @@
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.DarkOrange;
-            label6.Location = new Point(1012, 192);
+            label6.Location = new Point(1258, 213);
             label6.Name = "label6";
             label6.Size = new Size(49, 28);
             label6.TabIndex = 52;
@@ -202,7 +200,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.DarkOrange;
-            label5.Location = new Point(532, 192);
+            label5.Location = new Point(778, 213);
             label5.Name = "label5";
             label5.Size = new Size(154, 28);
             label5.TabIndex = 51;
@@ -213,7 +211,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.DarkOrange;
-            label4.Location = new Point(115, 192);
+            label4.Location = new Point(361, 213);
             label4.Name = "label4";
             label4.Size = new Size(153, 28);
             label4.TabIndex = 50;
@@ -225,7 +223,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 22.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Peru;
-            label3.Location = new Point(1194, 17);
+            label3.Location = new Point(1440, 38);
             label3.Name = "label3";
             label3.Size = new Size(46, 50);
             label3.TabIndex = 49;
@@ -238,7 +236,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Peru;
-            label1.Location = new Point(405, 71);
+            label1.Location = new Point(651, 92);
             label1.Name = "label1";
             label1.Size = new Size(355, 54);
             label1.TabIndex = 48;
@@ -250,7 +248,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.Peru;
-            label2.Location = new Point(486, 28);
+            label2.Location = new Point(732, 49);
             label2.Name = "label2";
             label2.Size = new Size(191, 54);
             label2.TabIndex = 47;
@@ -261,7 +259,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
-            ClientSize = new Size(1246, 711);
+            ClientSize = new Size(1531, 777);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
