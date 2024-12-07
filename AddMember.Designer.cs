@@ -121,6 +121,7 @@
             NameTb.Name = "NameTb";
             NameTb.Size = new Size(224, 24);
             NameTb.TabIndex = 59;
+            NameTb.MaskInputRejected += NameTb_MaskInputRejected;
             // 
             // PhoneTb
             // 

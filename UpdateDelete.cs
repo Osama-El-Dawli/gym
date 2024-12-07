@@ -12,7 +12,7 @@ namespace GymDesktop
             InitializeComponent();
         }
 
-        private readonly string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Desktop\source\gym\gym\Database\GymDb.mdf;Integrated Security=True;Connect Timeout=30";
+        private readonly string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\programming\C#\project\safe\gym\Database\GymDb.mdf;Integrated Security=True;Connect Timeout=30;";
 
         // Populate the DataGridView with members
         private void populate()
@@ -134,7 +134,7 @@ namespace GymDesktop
             // Get the selected row's ID (assuming the ID is in the correct column, let's say it's "MemberID")
             int selectedRowIndex = MemberSDGV.SelectedCells[0].RowIndex;
             DataGridViewRow selectedRow = MemberSDGV.Rows[selectedRowIndex];
-           int MId = Convert.ToInt32(selectedRow.Cells["MId"].Value);  // Use the correct column name here
+            int MId = Convert.ToInt32(selectedRow.Cells["MId"].Value);  // Use the correct column name here
 
             try
             {

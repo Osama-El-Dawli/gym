@@ -26,7 +26,7 @@ namespace GymDesktop
             }
 
             // Connection string
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Desktop\source\gym\gym\Database\GymDb.mdf;Integrated Security=True;Connect Timeout=30";
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\programming\C#\project\safe\gym\Database\GymDb.mdf;Integrated Security=True;Connect Timeout=30";
 
             // Query
             string query = "INSERT INTO MemberTbl (MName, MPhone, MGen, MAge, MAmount, MTraining) VALUES (@Name, @Phone, @Gender, @Age, @Amount, @Timing)";
@@ -53,7 +53,7 @@ namespace GymDesktop
 
                         // Success message
                         MessageBox.Show("Member Successfully Added");
-                        
+
                         AmountTb.Text = "";
                         AgeTb.Text = "";
                         NameTb.Text = "";
@@ -83,6 +83,11 @@ namespace GymDesktop
         private void label3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void NameTb_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
         }
     }
 }
