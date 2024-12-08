@@ -88,6 +88,7 @@
             button1.TabIndex = 62;
             button1.Text = "Back";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // AmountTb
             // 

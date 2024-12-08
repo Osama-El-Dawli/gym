@@ -58,7 +58,7 @@ namespace GymDesktop
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 22.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Peru;
-            label3.Location = new Point(899, 9);
+            label3.Location = new Point(1294, 9);
             label3.Name = "label3";
             label3.Size = new Size(46, 50);
             label3.TabIndex = 8;
@@ -71,7 +71,7 @@ namespace GymDesktop
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 26.1F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Peru;
-            label1.Location = new Point(364, 71);
+            label1.Location = new Point(525, 58);
             label1.Name = "label1";
             label1.Size = new Size(236, 60);
             label1.TabIndex = 7;
@@ -83,7 +83,7 @@ namespace GymDesktop
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.Peru;
-            label2.Location = new Point(386, 22);
+            label2.Location = new Point(547, 9);
             label2.Name = "label2";
             label2.Size = new Size(191, 54);
             label2.TabIndex = 6;
@@ -94,7 +94,7 @@ namespace GymDesktop
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.DarkOrange;
-            label5.Location = new Point(64, 483);
+            label5.Location = new Point(180, 490);
             label5.Name = "label5";
             label5.Size = new Size(88, 28);
             label5.TabIndex = 43;
@@ -105,7 +105,7 @@ namespace GymDesktop
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.DarkOrange;
-            label4.Location = new Point(64, 371);
+            label4.Location = new Point(180, 378);
             label4.Name = "label4";
             label4.Size = new Size(153, 28);
             label4.TabIndex = 42;
@@ -115,10 +115,10 @@ namespace GymDesktop
             // 
             Periode.CalendarMonthBackground = Color.PeachPuff;
             Periode.CalendarTitleBackColor = Color.Linen;
-            Periode.Location = new Point(64, 299);
+            Periode.Location = new Point(180, 306);
             Periode.Margin = new Padding(1);
             Periode.Name = "Periode";
-            Periode.Size = new Size(237, 27);
+            Periode.Size = new Size(295, 27);
             Periode.TabIndex = 46;
             Periode.Value = new DateTime(2024, 11, 30, 0, 0, 0, 0);
             // 
@@ -127,7 +127,7 @@ namespace GymDesktop
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.DarkOrange;
-            label6.Location = new Point(64, 247);
+            label6.Location = new Point(180, 254);
             label6.Name = "label6";
             label6.Size = new Size(164, 28);
             label6.TabIndex = 47;
@@ -139,9 +139,9 @@ namespace GymDesktop
             button3.FlatStyle = FlatStyle.Popup;
             button3.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button3.ForeColor = SystemColors.ButtonHighlight;
-            button3.Location = new Point(62, 605);
+            button3.Location = new Point(178, 612);
             button3.Name = "button3";
-            button3.Size = new Size(124, 53);
+            button3.Size = new Size(155, 53);
             button3.TabIndex = 49;
             button3.Text = "Pay";
             button3.UseVisualStyleBackColor = false;
@@ -153,9 +153,9 @@ namespace GymDesktop
             button2.FlatStyle = FlatStyle.Popup;
             button2.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.ForeColor = SystemColors.ButtonHighlight;
-            button2.Location = new Point(192, 605);
+            button2.Location = new Point(341, 612);
             button2.Name = "button2";
-            button2.Size = new Size(108, 53);
+            button2.Size = new Size(134, 53);
             button2.TabIndex = 48;
             button2.Text = "Reset";
             button2.UseVisualStyleBackColor = false;
@@ -164,7 +164,7 @@ namespace GymDesktop
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.user;
-            pictureBox2.Location = new Point(132, 128);
+            pictureBox2.Location = new Point(276, 157);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(68, 60);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -177,22 +177,23 @@ namespace GymDesktop
             button4.FlatStyle = FlatStyle.Popup;
             button4.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button4.ForeColor = SystemColors.ButtonHighlight;
-            button4.Location = new Point(62, 674);
+            button4.Location = new Point(178, 681);
             button4.Name = "button4";
-            button4.Size = new Size(238, 53);
+            button4.Size = new Size(297, 53);
             button4.TabIndex = 53;
             button4.Text = "Back";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // PaymentSDGV
             // 
             PaymentSDGV.BackgroundColor = SystemColors.HighlightText;
             PaymentSDGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             PaymentSDGV.GridColor = SystemColors.ControlLight;
-            PaymentSDGV.Location = new Point(364, 299);
+            PaymentSDGV.Location = new Point(667, 300);
             PaymentSDGV.Name = "PaymentSDGV";
             PaymentSDGV.RowHeadersWidth = 51;
-            PaymentSDGV.Size = new Size(553, 434);
+            PaymentSDGV.Size = new Size(551, 434);
             PaymentSDGV.TabIndex = 54;
             // 
             // AmountTb
@@ -201,9 +202,9 @@ namespace GymDesktop
             AmountTb.BorderStyle = BorderStyle.None;
             AmountTb.Font = new Font("Engravers MT", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             AmountTb.ForeColor = Color.DarkOrange;
-            AmountTb.Location = new Point(64, 537);
+            AmountTb.Location = new Point(180, 544);
             AmountTb.Name = "AmountTb";
-            AmountTb.Size = new Size(237, 24);
+            AmountTb.Size = new Size(295, 24);
             AmountTb.TabIndex = 56;
             AmountTb.Tag = "";
             // 
@@ -211,9 +212,9 @@ namespace GymDesktop
             // 
             NameCb.FormattingEnabled = true;
             NameCb.Items.AddRange(new object[] { "6Am-8Am", "8Am-10Am", "6Pm-8Pm", "8Pm-10PM" });
-            NameCb.Location = new Point(64, 423);
+            NameCb.Location = new Point(180, 430);
             NameCb.Name = "NameCb";
-            NameCb.Size = new Size(237, 28);
+            NameCb.Size = new Size(295, 28);
             NameCb.TabIndex = 57;
             // 
             // label7
@@ -222,7 +223,7 @@ namespace GymDesktop
             label7.BackColor = Color.Transparent;
             label7.Font = new Font("Segoe UI", 22.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.Peru;
-            label7.Location = new Point(539, 173);
+            label7.Location = new Point(830, 167);
             label7.Name = "label7";
             label7.Size = new Size(199, 50);
             label7.TabIndex = 58;
@@ -234,7 +235,7 @@ namespace GymDesktop
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ButtonHighlight;
-            button1.Location = new Point(657, 230);
+            button1.Location = new Point(948, 224);
             button1.Name = "button1";
             button1.Size = new Size(116, 53);
             button1.TabIndex = 60;
@@ -248,7 +249,7 @@ namespace GymDesktop
             SearchName.BorderStyle = BorderStyle.None;
             SearchName.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             SearchName.ForeColor = Color.DarkOrange;
-            SearchName.Location = new Point(399, 230);
+            SearchName.Location = new Point(690, 224);
             SearchName.Multiline = true;
             SearchName.Name = "SearchName";
             SearchName.Size = new Size(252, 53);
@@ -260,7 +261,7 @@ namespace GymDesktop
             button5.FlatStyle = FlatStyle.Popup;
             button5.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button5.ForeColor = SystemColors.ButtonHighlight;
-            button5.Location = new Point(779, 230);
+            button5.Location = new Point(1070, 224);
             button5.Name = "button5";
             button5.Size = new Size(116, 53);
             button5.TabIndex = 61;
@@ -273,7 +274,7 @@ namespace GymDesktop
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
-            ClientSize = new Size(957, 799);
+            ClientSize = new Size(1352, 813);
             Controls.Add(button5);
             Controls.Add(button1);
             Controls.Add(SearchName);

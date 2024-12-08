@@ -48,8 +48,8 @@ namespace GymDesktop
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Login log = new Login();
-            log.Show();
+            Home home = new Home();
+            home.Show();
             this.Hide();
         }
 

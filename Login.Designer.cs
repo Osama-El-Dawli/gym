@@ -130,7 +130,7 @@
             pictureBox3.TabIndex = 9;
             pictureBox3.TabStop = false;
             // 
-            // Form1
+            // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -144,7 +144,8 @@
             Controls.Add(UidTb);
             Controls.Add(label2);
             Controls.Add(pictureBox1);
-            Name = "Form1";
+            Name = "Login";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

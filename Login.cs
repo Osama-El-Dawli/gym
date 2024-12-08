@@ -19,6 +19,9 @@ namespace GymDesktop
             {
                 MessageBox.Show("Missing Information");
             }else if(UidTb.Text=="Admin" && PassTb.Text=="Admin") {
+                Home home = new Home();
+                home.Show();
+                this.Hide();
 
             }
             else
