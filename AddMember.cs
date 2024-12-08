@@ -26,7 +26,7 @@ namespace GymDesktop
             }
 
             // Connection string
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\programming\C#\project\safe\gym\Database\GymDb.mdf;Integrated Security=True;Connect Timeout=30";
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Desktop\source\gym\gym\Database\GymDb.mdf;Integrated Security=True;Connect Timeout=30";
 
             // Query
             string query = "INSERT INTO MemberTbl (MName, MPhone, MGen, MAge, MAmount, MTraining) VALUES (@Name, @Phone, @Gender, @Age, @Amount, @Timing)";

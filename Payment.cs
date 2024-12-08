@@ -12,7 +12,7 @@ namespace GymDesktop
             InitializeComponent();
         }
 
-        private readonly string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\programming\C#\project\safe\gym\Database\GymDb.mdf;Integrated Security=True;Connect Timeout=30;";
+        private readonly string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\Desktop\source\gym\gym\Database\GymDb.mdf;Integrated Security=True;Connect Timeout=30";
 
         // Fill ComboBox with Member Names
         private void FillName()
@@ -164,6 +164,11 @@ namespace GymDesktop
             Home home = new Home();
             home.Show();
             this.Hide();
+        }
+
+        private void PaymentSDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -195,6 +195,7 @@ namespace GymDesktop
             PaymentSDGV.RowHeadersWidth = 51;
             PaymentSDGV.Size = new Size(551, 434);
             PaymentSDGV.TabIndex = 54;
+            PaymentSDGV.CellContentClick += PaymentSDGV_CellContentClick;
             // 
             // AmountTb
             // 
