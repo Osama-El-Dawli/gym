@@ -23,9 +23,9 @@ namespace GymDesktop
                 {
                     con.Open();
                     SqlCommand cmd = new SqlCommand("SELECT MName FROM MemberTbl", con);
-                    SqlDataReader rdr = cmd.ExecuteReader();
+                    SqlDataReader sda = cmd.ExecuteReader();
                     DataTable dt = new DataTable();
-                    dt.Load(rdr);
+                    dt.Load(sda);
                     NameCb.DisplayMember = "MName";
                     NameCb.ValueMember = "MName";
                     NameCb.DataSource = dt;
